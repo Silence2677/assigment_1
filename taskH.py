@@ -1,2 +1,4 @@
-n = int(input())
-print(n // 10 % 10)
+a = int(input())
+b = int(input())
+a, b = b, a
+print(a, b)
